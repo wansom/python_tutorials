@@ -28,3 +28,9 @@ courses.extend(new_courses)
 courses.pop()
 print(len(courses))
 print(courses)
+
+# tuples
+unchanged_list=('history','math','history','math')
+
+# sets
+new_set={'history','math','history','math'}
