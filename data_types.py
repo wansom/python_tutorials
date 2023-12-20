@@ -21,4 +21,10 @@ print(rent_in_words)
 
 # Lists 
 courses=['history','math','history','math']
+new_courses=['philosophy','literature']
+courses.append('English')
+courses.insert(0,'art')
+courses.extend(new_courses)
+courses.pop()
 print(len(courses))
+print(courses)
