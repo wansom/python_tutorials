@@ -34,3 +34,18 @@ unchanged_list=('history','math','history','math')
 
 # sets
 new_set={'history','math','history','math'}
+
+# Creating a dictionary
+my_dict = {'first_name': 'John', 'last_name': 'Doe', 'favorite_color': 'blue'}
+
+# Accessing values
+print("First Name:", my_dict['first_name'])
+
+# Modifying a value
+my_dict['favorite_color'] = 'green'
+
+# Adding a new key-value pair
+my_dict['age'] = 25
+
+# Displaying the updated dictionary
+print("Updated Dictionary:", my_dict)
